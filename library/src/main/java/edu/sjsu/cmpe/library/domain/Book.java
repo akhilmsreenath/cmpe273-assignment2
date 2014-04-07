@@ -86,7 +86,7 @@ public class Book {
     /**
      * @return the category
      */
-    public String getCategory() {
+    public String getCategory_book() {
 	return category;
     }
 
@@ -94,7 +94,7 @@ public class Book {
      * @param category
      *            the category to set
      */
-    public void setCategory(String category) {
+    public void setCategory_book(String category) {
 	this.category = category;
     }
 
