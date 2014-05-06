@@ -19,6 +19,3 @@ http://localhost:8002/library/v1
 
 Admin: http://localhost:8081/
 
-
-
-http://54.215.133.131:61680/

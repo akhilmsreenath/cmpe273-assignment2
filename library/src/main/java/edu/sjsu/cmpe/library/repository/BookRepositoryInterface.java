@@ -47,7 +47,10 @@ public interface BookRepositoryInterface {
      *            an ISBN of the book to be deleted
      */
     void delete(Long isbn);
-    Book update_Book(Long isbn,Status status) throws JMSException;
-    void add(Book newbook);
     
+    Book updateBookStatus(Book book, Status status) throws JMSException;
+
+	void addBook(Book tempBook);
+
+	
 }

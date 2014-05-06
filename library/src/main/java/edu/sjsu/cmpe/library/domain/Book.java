@@ -86,7 +86,7 @@ public class Book {
     /**
      * @return the category
      */
-    public String getCategory_book() {
+    public String getCategory() {
 	return category;
     }
 
@@ -94,7 +94,7 @@ public class Book {
      * @param category
      *            the category to set
      */
-    public void setCategory_book(String category) {
+    public void setCategory(String category) {
 	this.category = category;
     }
 
@@ -127,5 +127,12 @@ public class Book {
     public void setStatus(Status status) {
 	this.status = status;
     }
+
+	@Override
+	public String toString() {
+		return "Book [isbn=" + isbn + ", title=" + title + ", category="
+				+ category + ", coverimage=" + coverimage + ", status="
+				+ status + "]";
+	}
 
 }
